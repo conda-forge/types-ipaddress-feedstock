@@ -1,5 +1,5 @@
 {% set name = "types-ipaddress" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-ipaddress-{{ version }}.tar.gz
-  sha256: 2f32f181bf80ee5fb66e1326139d09737bd20f2a7a2b761ef895528a57e61ce9
+  sha256: dc5540c7fd8d4b3ffe8461bc01f27513c0abe5f2088e491218bd0a98a0b4584e
 
 build:
   number: 0
